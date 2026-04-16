@@ -1,0 +1,27 @@
+# Security
+.env
+
+# Python internals
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Data & FAISS Index
+# (Keep these local to avoid massive push/pull times)
+*.index
+data/
+past_scripts/
+
+# Generated Results & Plots
+# (Your scripts recreate these; no need to store them in Git)
+*.csv
+*.png
+
+# Streamlit Local Config
+.streamlit/
+
+# OS junk
+.DS_Store
+Thumbs.db
