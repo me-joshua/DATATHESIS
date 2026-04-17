@@ -1,78 +1,105 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.metrics import confusion_matrix, classification_report
-import numpy as np
+from sklearn.metrics import confusion_matrix, classification_report, accuracy_score
+import os
 
-# 1. Load and Align Data
-# We merge on 'ID' to ensure we are comparing the exact same riddles
-baseline_df = pd.read_csv('baseline_results.csv')
-rag_df = pd.read_csv('rag_results.csv')
+# Set visual style
+sns.set_theme(style="whitegrid")
 
-# Merge results on ID
-combined = pd.merge(
-    baseline_df[['ID', 'Actual', 'Baseline_Predicted', 'Baseline_Correct']], 
-    rag_df[['ID', 'RAG_Predicted', 'RAG_Correct']], 
-    on="ID"
-)
+def load_and_standardize(file_path, pred_col_hint):
+    if not os.path.exists(file_path):
+        return None
+    
+    df = pd.read_csv(file_path)
+    # Clean column names of spaces but keep casing for a moment
+    df.columns = df.columns.str.strip()
+    
+    # Identify the actual and prediction columns (case-insensitive search)
+    actual_col = next((c for c in df.columns if c.lower() == 'actual'), None)
+    pred_col = next((c for c in df.columns if c.lower() == pred_col_hint.lower()), None)
+    
+    if not actual_col or not pred_col:
+        print(f"⚠️ Could not find columns in {file_path}. Found: {df.columns.tolist()}")
+        return None
 
-# 2. Performance Metrics
-base_acc = combined['Baseline_Correct'].mean() * 100
-rag_acc = combined['RAG_Correct'].mean() * 100
+    # Standardize values: Title Case and Strip
+    df[actual_col] = df[actual_col].astype(str).str.strip().str.capitalize()
+    df[pred_col] = df[pred_col].astype(str).str.strip().str.capitalize()
+    
+    return df, actual_col, pred_col
 
-print("\n" + "="*50)
-print(f"📈 PROJECT PERFORMANCE SUMMARY")
-print("="*50)
-print(f"Zero-Shot Accuracy:  {base_acc:.2f}%")
-print(f"RAG-Enhanced Accuracy: {rag_acc:.2f}%")
-print(f"Net Improvement:       {rag_acc - base_acc:+.2f}%")
-print("="*50)
+def run_analytics():
+    # 1. Config: Mapping components to their files and column names
+    configs = {
+        "Baseline": {"file": "baseline_results.csv", "hint": "Baseline_Predicted"},
+        "Layer 1": {"file": "layer1_test_results.csv", "hint": "Layer1_Predicted"},
+        "Layer 2 Alone": {"file": "layer2_full_results.csv", "hint": "Predicted"},
+        "Hybrid (L1+L2)": {"file": "rag_results.csv", "hint": "Predicted"}
+    }
+    
+    classes = ['Logic', 'Mathematical', 'Wordplay', 'Cultural']
+    final_stats = []
 
-# 3. Category-Wise Analysis (The "Research Gold")
-# This calculates accuracy for each category individually
-cat_base = combined.groupby('Actual')['Baseline_Correct'].mean() * 100
-cat_rag = combined.groupby('Actual')['RAG_Correct'].mean() * 100
-categories = cat_base.index.tolist()
+    print(f"🚀 Starting Final Thesis Analytics Engine...")
+    print("-" * 60)
 
-# 4. Generate Category-Wise Comparison Bar Chart
-plt.figure(figsize=(12, 6))
-x = np.arange(len(categories))
-width = 0.35
+    for name, cfg in configs.items():
+        result = load_and_standardize(cfg["file"], cfg["hint"])
+        if result is None: continue
+        
+        df, actual_col, pred_col = result
+        
+        y_true = df[actual_col]
+        y_pred = df[pred_col]
 
-plt.bar(x - width/2, cat_base, width, label='Zero-Shot (Baseline)', color='#ff9999', alpha=0.8)
-plt.bar(x + width/2, cat_rag, width, label='RAG-Enhanced (Proposed)', color='#66b3ff', alpha=0.8)
+        # Calculate Accuracy and Recall
+        # Note: Layer 1 'Skipped' entries are treated as incorrect
+        acc = accuracy_score(y_true, y_pred)
+        report = classification_report(y_true, y_pred, labels=classes, output_dict=True, zero_division=0)
+        weighted_recall = report['weighted avg']['recall']
+        
+        final_stats.append({
+            "Component": name,
+            "Accuracy": acc,
+            "Recall": weighted_recall
+        })
 
-plt.ylabel('Accuracy (%)')
-plt.title('Accuracy by Riddle Category: Baseline vs. RAG', fontsize=14, fontweight='bold')
-plt.xticks(x, categories)
-plt.legend()
-plt.grid(axis='y', linestyle='--', alpha=0.7)
+        # --- GENERATE CONFUSION MATRIX ---
+        # (We skip Layer 1 CM as it's dominated by 'Skipped' values)
+        if name != "Layer 1":
+            cm = confusion_matrix(y_true, y_pred, labels=classes)
+            plt.figure(figsize=(8, 6))
+            sns.heatmap(cm, annot=True, fmt='d', cmap='Spectral_r', xticklabels=classes, yticklabels=classes)
+            plt.title(f"Confusion Matrix: {name}", fontsize=14, fontweight='bold')
+            plt.ylabel('Actual Category')
+            plt.xlabel('Predicted Category')
+            plt.tight_layout()
+            plt.savefig(f"cm_{name.lower().replace(' ', '_').replace('(', '').replace(')', '')}.png")
+            plt.close()
 
-# Annotate bars
-for i, v in enumerate(cat_base):
-    plt.text(i - width/2, v + 1, f"{v:.0f}%", ha='center', fontsize=9)
-for i, v in enumerate(cat_rag):
-    plt.text(i + width/2, v + 1, f"{v:.0f}%", ha='center', fontsize=9)
+    # 2. ACCURACY COMPARISON BAR CHART
+    stats_df = pd.DataFrame(final_stats)
+    plt.figure(figsize=(10, 6))
+    ax = sns.barplot(x="Component", y="Accuracy", data=stats_df, hue="Component", palette="viridis", legend=False)
+    plt.ylim(0, 1.1)
+    plt.title("Accuracy Comparison: All Layers vs Baseline", fontsize=15, fontweight='bold')
+    
+    for p in ax.patches:
+        ax.annotate(f'{p.get_height()*100:.2f}%', (p.get_x() + p.get_width() / 2., p.get_height()),
+                    ha='center', va='center', fontsize=11, fontweight='bold', xytext=(0, 9), textcoords='offset points')
+    
+    plt.savefig("final_accuracy_comparison.png")
+    plt.close()
 
-plt.tight_layout()
-plt.savefig('category_accuracy.png')
-print("✅ Saved 'category_accuracy.png'")
+    # 3. PRINT ANALYTICS SUMMARY
+    print(f"{'COMPONENT':<20} | {'ACCURACY':<12} | {'RECALL':<10}")
+    print("-" * 60)
+    for s in final_stats:
+        print(f"{s['Component']:<20} | {s['Accuracy']*100:>10.2f}% | {s['Recall']*100:>8.2f}%")
+    print("-" * 60)
+    print("✅ Confusion Matrices saved as PNGs.")
+    print("✅ Accuracy Comparison chart saved as final_accuracy_comparison.png.")
 
-# 5. Generate Confusion Matrix (RAG Version)
-labels = sorted(combined['Actual'].unique())
-cm = confusion_matrix(combined['Actual'], combined['RAG_Predicted'], labels=labels)
-
-plt.figure(figsize=(10, 8))
-sns.heatmap(cm, annot=True, fmt='d', xticklabels=labels, yticklabels=labels, cmap='Blues', cbar=False)
-plt.xlabel('Predicted by AI', fontsize=12)
-plt.ylabel('Actual Label (Ground Truth)', fontsize=12)
-plt.title('Confusion Matrix: RAG-Enhanced Model', fontsize=14, fontweight='bold')
-plt.tight_layout()
-plt.savefig('confusion_matrix.png')
-print("✅ Saved 'confusion_matrix.png'")
-
-# 6. Detailed Classification Report
-print("\n--- Detailed Classification Metrics (RAG) ---")
-print(classification_report(combined['Actual'], combined['RAG_Predicted'], target_names=labels))
-
-plt.show()
+if __name__ == "__main__":
+    generate_advanced_stats = run_analytics()
