@@ -1,0 +1,51 @@
+﻿ID,Question,Actual,Baseline_Predicted,Baseline_Correct,Model
+199,കൊമ്പില്ലാ കുംഭിയില്‍ കൊമ്പ്,Cultural,Cultural,1,gpt-4o-mini
+608,காவலுக்கு ஆயிரம் வீரர்கள் உண்டு...,Logic,Cultural,0,gpt-4o-mini
+174,ഒരമ്മ എന്നും വെന്തും നീറിയും,Cultural,Cultural,1,gpt-4o-mini
+843,ஒரு எண் 100-க்கு அருகில் இருக்கும் பிரதம எண்?,Mathematical,Mathematical,1,gpt-4o-mini
+66,വെളുത്ത സായ്പിനു കറുത്ത തൊപ്പി,Logic,Cultural,0,gpt-4o-mini
+552,கோடையிலே ஆடி வரும் வாடையில முடங்கி விடும்.,Logic,Cultural,0,gpt-4o-mini
+773,வீட்டில் ஒளி தரும் நண்பன்,Cultural,Cultural,1,gpt-4o-mini
+614,என்னை கீழே போட்டால் உடைந்து விடுவேன்...,Logic,Cultural,0,gpt-4o-mini
+998,"நான் ஒரு எழுத்து தான், ஆனா இசை மாதிரி இருக்கும்.",Wordplay,Wordplay,1,gpt-4o-mini
+158,"ആളൊരു കുള്ളന്‍, നിലവിളിയൊരമ്പതു കാതും കേള്‍ക്കും",Cultural,Cultural,1,gpt-4o-mini
+958,எப்போதும் பேசும் ஆனால் வாயில்லாதது.,Wordplay,Cultural,0,gpt-4o-mini
+67,"കൈപ്പടം പോലെന്‍ ഇല, പെണ്ണുങ്ങളുടെ വിരല്‍ പോലെന്‍ കായ",Logic,Cultural,0,gpt-4o-mini
+596,"நான் ஜோடியாக இருப்பேன், ஆனா ஒரே காலில் நிற்பேன்.",Logic,Cultural,0,gpt-4o-mini
+231,മണ്ടിപ്പെണ്ണ് കയറില്‍ തൂങ്ങി കുണ്ടിലിറങ്ങി,Cultural,Cultural,1,gpt-4o-mini
+597,முறையின்றி தொட்டால் உயிரை எடுப்பான்.,Logic,Cultural,0,gpt-4o-mini
+425,വാഴയില്ലാത്ത 'വാഴപ്പഴം' ഏതാണ്?,Wordplay,Cultural,0,gpt-4o-mini
+76,കൊക്കിരിക്കും കുളം വറ്റി വറ്റി,Logic,Cultural,0,gpt-4o-mini
+863,ஒரு சதுரத்தின் கோணங்கள் கூட்டுத்தொகை?,Mathematical,Mathematical,1,gpt-4o-mini
+939,"நின்றாலும் போகும், ஓடியாலும் போகும்.",Wordplay,Cultural,0,gpt-4o-mini
+294,99-നോട് എത്ര കൂട്ടിയാൽ 100 കിട്ടും?,Mathematical,Mathematical,1,gpt-4o-mini
+88,ഇരുട്ടു പുരയില്‍ കുട്ട്യാന,Logic,Cultural,0,gpt-4o-mini
+96,മൂത്തമ്മമാരിരുന്നു വെന്തു നീറുന്നു,Logic,Cultural,0,gpt-4o-mini
+1004,"முன் சேர்த்தால் நல்லது, பின் சேர்த்தால் கெட்டது — ‘நர்’",Wordplay,Wordplay,1,gpt-4o-mini
+306,അഞ്ച് വിരലുകളുള്ള നാല് കൈകളിൽ ആകെ എത്ര വിരലുകളുണ്ട്?,Mathematical,Mathematical,1,gpt-4o-mini
+430,പല്ലില്ലാത്ത 'പല്ലി' ഏതാണ്?,Wordplay,Cultural,0,gpt-4o-mini
+862,ஒரு முக்கோணத்தின் கோணங்கள் கூட்டுத்தொகை?,Mathematical,Mathematical,1,gpt-4o-mini
+839,"ஒரு எண்ணின் கன சதுரம் 27, அந்த எண் என்ன?",Mathematical,Mathematical,1,gpt-4o-mini
+928,கையில்லாமல் நீந்துவான் கால் இல்லாமல் ஓடுவான்.,Wordplay,Cultural,0,gpt-4o-mini
+357,100-ൽ പകുതിയുടെ കൂടെ 10 കൂട്ടിയാൽ എത്ര?,Mathematical,Mathematical,1,gpt-4o-mini
+286,രണ്ട് പൂജ്യം ചേർത്താൽ എട്ട് കിട്ടുന്ന സംഖ്യ ഏത്?,Mathematical,Mathematical,1,gpt-4o-mini
+23,തൊട്ടാല്‍ ഉറങ്ങും തോപ്പിലെ കുഞ്ഞന്‍,Logic,Cultural,0,gpt-4o-mini
+30,"പൂക്കാത്ത, കായ്ക്കാത്ത കാടിന്റെ നിറം മാറുന്നു",Logic,Cultural,0,gpt-4o-mini
+590,நீங்கள் தொட்டே இல்லாமல் உடைக்கக்கூடியது என்ன?,Logic,Cultural,0,gpt-4o-mini
+244,"മാനത്തുനിന്ന് നിലത്തിറങ്ങി, ചില കുത്തു കുത്തി, ചില നാരുകെട്ടി, ചില കോലു കെട്ടി നീക്കിവെച്ചു",Cultural,Cultural,1,gpt-4o-mini
+544,"கண்ணில் தென்படுவான், கையில் பிடிபட மாட்டான்.",Logic,Cultural,0,gpt-4o-mini
+691,கன்று நிற்க கயிறு மேயுது.,Cultural,Cultural,1,gpt-4o-mini
+1046,நான் வந்தால் இடைவேளை,Wordplay,Cultural,0,gpt-4o-mini
+979,உலகில் அதிக மாடிகளைக் கொண்ட கட்டிடம் எது?,Wordplay,Cultural,0,gpt-4o-mini
+627,காலையில் வந்த விருந்தாளியை மாலையில் காணவில்லை.,Logic,Cultural,0,gpt-4o-mini
+792,வீட்டில் இருக்கும் நீர் பாத்திரம்,Cultural,Cultural,1,gpt-4o-mini
+299,അര കിലോയും 500 ഗ്രാമും ചേർന്നാൽ എത്ര കിലോ ആകും?,Mathematical,Mathematical,1,gpt-4o-mini
+298,10 മീറ്റർ നീളമുള്ള മരം 1 മീറ്റർ വീതം മുറിക്കാൻ എത്ര തവണ വെട്ടണം?,Mathematical,Logic,0,gpt-4o-mini
+275,പകുതിയാക്കിയാൽ പൂജ്യം കിട്ടുന്ന സംഖ്യ ഏതാണ്?,Mathematical,Mathematical,1,gpt-4o-mini
+213,"താങ്ങു തൂങ്ങും മരം, നടുവളഞ്ഞമരം, നാലാളു ചെയ്ത പാപം, ഒരാളു ചെയ്ത് പുണ്യം",Cultural,Cultural,1,gpt-4o-mini
+800,மண்ணில் வளரும் மருந்து,Cultural,Cultural,1,gpt-4o-mini
+626,"நான்கு கால்கள், இரு தலை, எது?",Logic,Cultural,0,gpt-4o-mini
+950,முத்துக் கோட்டையிலே மகாராணி சிறைப்பட்டிருக்கிறாள்.,Wordplay,Cultural,0,gpt-4o-mini
+120,"അഞ്ചുനായരും കുഞ്ചുനായരും കൂടി ഗുഹ കാണാന്‍ പോയി അഞ്ചു നായര്‍ ഇങ്ങോട്ടും പോന്നു, കുഞ്ചുനായര്‍ അങ്ങോട്ടും പോയി",Logic,Cultural,0,gpt-4o-mini
+661,எத்தனை தரம் சுற்றினாலும் தலை சுற்றாது அது என்ன?,Logic,Cultural,0,gpt-4o-mini
+342,അഞ്ച് പൈസയുടെ 20 നാണയം ചേർന്നാൽ എത്ര?,Mathematical,Mathematical,1,gpt-4o-mini

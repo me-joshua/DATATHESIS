@@ -1,0 +1,224 @@
+﻿ID,Question,Actual,Predicted,Method,Latency,Correct
+0,ഏത് സംഖ്യയെ അതേ സംഖ്യ കൊണ്ട് തന്നെ ഗുണിച്ചാലും കൂട്ടിയാലും ഒരേ ഉത്തരം ലഭിക്കും?,Mathematical,Mathematical,Layer 2 (Weighted Semantic Vote),0.1609,1
+1,വാല് കണ്ടത്തിൽ കഴുത്ത് വരമ്പത്ത് വായിൽ തീ,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0946,1
+2,വായുണ്ട് പക്ഷേ സംസാരിക്കില്ല,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.0816,1
+3,അഞ്ചിൽ എത്ര ഒന്നുകളുണ്ട്?,Mathematical,Mathematical,Layer 2 (Confident Match),0.0512,1
+4,ഒരു കുപ്പിയിൽ രണ്ട് നിറത്തിലുള്ള വെള്ളം,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.0932,1
+5,திருமணத்தில் அணியும் மாலை என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0987,1
+6,ആരും ഓടിക്കാത്ത പട ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+7,പകുതി ഭാഗവും അര ഭാഗവും ഒന്നാണോ?,Mathematical,Mathematical,Layer 2 (Weighted Semantic Vote),0.1047,1
+8,கோயிலில் தரப்படும் நீர் என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.091,1
+9,തൂങ്ങിക്കിടക്കും പക്ഷേ വീഴില്ല,Logic,Logic,Layer 2 (Confident Match),0.047,1
+10,கோயிலில் காணப்படும் மணி என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0966,1
+11,"வட்டமாக இருக்கும், உள்ளே ஓடும் ஆனால் வெளியே வராது — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.099,1
+12,അഞ്ചും അഞ്ചും ചേർന്നാൽ പത്ത്. അഞ്ചും അഞ്ചും ഗുണിച്ചാൽ ഇരുപത്തിയഞ്ച്. അഞ്ചും പൂജ്യവും ഗുണിച്ചാൽ എത്ര?,Mathematical,Mathematical,Layer 2 (Confident Match),0.06,1
+13,ആരും എടുക്കാത്ത പണം ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+14,തള്ള വിറയ്ക്കും പിള്ള കറങ്ങും,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.1053,1
+15,"மெல்ல மெல்ல விழும், கல்ல கல்ல ஆகும், நான் யார்?",Wordplay,Wordplay,Layer 2 (Confident Match),0.0531,1
+16,ആരും വയ്ക്കേണ്ട എന്ന് പറയുന്ന വെയ്പ്പ് ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+17,கோயிலில் தரப்படும் பூ என்ன?,Cultural,Cultural,Layer 2 (Confident Match),0.0519,1
+18,"பிறக்கும்போது சத்தம் போடும், வளரும்போது மௌனமாகும் — நான் என்ன?",Logic,Wordplay,Layer 2 (Weighted Semantic Vote),0.1058,0
+19,കണ്ണില്ലാത്ത കണ്ണൻ ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+20,"உங்களுடன் பிறந்தது, உங்களுடன் வளர்ந்தது, ஆனால் நீங்கள் அதை பார்க்க முடியாது — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1049,1
+21,"மூடி மூடி வைத்தாலும், ஊடி ஊடி வருவேன், நான் யார்?",Wordplay,Wordplay,Layer 2 (Confident Match),0.0541,1
+22,10 பேர் 10 நிமிடத்தில் 10 வேலை செய்தால் 1 பேர் 1 வேலை செய்ய எத்தனை நிமிடம்?,Mathematical,Mathematical,Layer 1 (Weighted Keywords),0.0,1
+23,"அனைவரும் என்னை இழக்கிறார்கள், ஆனால் யாரும் என்னை கண்டுபிடிக்க முயலுவதில்லை — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1144,1
+24,"தினமும் பிறக்கிறேன், தினமும் இறக்கிறேன், ஆனாலும் என்றும் உள்ளேன் — நான் என்ன?",Logic,Wordplay,Layer 2 (Weighted Semantic Vote),0.1066,0
+25,ഒരമ്മയ്ക്ക് ആയിരം ഓമനകൾ,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0934,1
+26,அம்மன் கோவில் என்ன தரும்?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0926,1
+27,"பார்க்கும்போது இல்லை, கண்ணை மூடும்போது தெரியும் — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1034,1
+28,அர்ச்சகர் என்ன செய்கிறார்?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0853,1
+29,நூற்றின் ஐந்து சதவீதம் என்ன?,Mathematical,Mathematical,Layer 2 (Weighted Semantic Vote),0.1519,1
+30,വായുമുണ്ട് വയറുമുണ്ട് പക്ഷെ ഭക്ഷിക്കില്ല,Cultural,Logic,Layer 2 (Weighted Semantic Vote),0.0967,0
+31,ஒரு கடையில் 10 சட்டைகள் ஒவ்வொன்றும் 250 ரூபாய். மொத்த விலை என்ன?,Mathematical,Mathematical,Layer 2 (Weighted Semantic Vote),0.1045,1
+32,"சின்ன சின்ன ஒளிகள், மின்ன மின்ன தெரியும், நான் யார்?",Wordplay,Wordplay,Layer 2 (Confident Match),0.0531,1
+33,"பிடி பிடி வைத்தாலும், விடி விடி போகும், நான் யார்?",Wordplay,Wordplay,Layer 2 (Confident Match),0.0524,1
+34,பதினேழோடு பதினேழு கூட்டினால் என்ன?,Mathematical,Mathematical,Layer 2 (Weighted Semantic Vote),0.1052,1
+35,ஒன்பதின் இரட்டிப்பு என்ன?,Mathematical,Mathematical,Layer 2 (Weighted Semantic Vote),0.0901,1
+36,തലയിൽ കിരീടം ഉടലിൽ കണ്ണുകൾ,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0949,1
+37,"கண் இல்லாமல் பார்க்கும், காது இல்லாமல் கேட்கும் — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1013,1
+38,വെയിലത്ത് വിരിയും മഴയത്ത് വിരിയും വീട്ടിലെത്തിയാൽ മടങ്ങും,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.1014,1
+39,കാണാത്ത വെളിച്ചം ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+40,என் காதுகள் என் கண்களை விட பெரியது — நான் யார்?,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1012,1
+41,"கடலில் வாழ்கிறேன், ஆனால் உப்பல்ல — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.0994,1
+42,ആരും അളക്കാത്ത അളവ് ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+43,രണ്ട് അക്കമുള്ള ഏറ്റവും ചെറിയ ഒറ്റസംഖ്യ?,Mathematical,Mathematical,Layer 2 (Confident Match),0.0587,1
+44,പത്തിന് താഴെയുള്ള അഭാജ്യ സംഖ്യകൾ എത്ര?,Mathematical,Mathematical,Layer 2 (Confident Match),0.0513,1
+45,നാല് പേർ കൂടി ഓയ് ചോര പുറത്തേക്ക്,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0908,1
+46,എത്ര കഴിച്ചാലും വയറു നിറയാത്തവൻ,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.1009,1
+47,വലുതാകുന്തോറും ഭാരം കുറയുന്ന സാധനം,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.0953,1
+48,மாடுகளுக்கான திருவிழா என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0932,1
+49,മുറിക്കും തോറും നീളം കൂടുന്ന സാധനം,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.0986,1
+50,വെള്ളപ്പാടത്ത് കറുത്ത ഉറുമ്പുകൾ,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0855,1
+51,"கட்டி கட்டி வைத்தாலும், வெட்டி வெட்டி சாப்பிடுவார்கள், நான் யார்?",Wordplay,Wordplay,Layer 2 (Confident Match),0.0534,1
+52,மார்கழி மாதம் எதற்கு பிரசித்தம்?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0992,1
+53,ചക്രമില്ലാത്ത വണ്ടി ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+54,பொங்கலில் தரப்படும் உணவு என்ன?,Cultural,Cultural,Layer 2 (Confident Match),0.0475,1
+55,"வீடு வீடாக சுற்றுவேன், பாடு பாடாக பாடுவேன், நான் யார்?",Wordplay,Wordplay,Layer 2 (Weighted Semantic Vote),0.1032,1
+56,ഇരുന്നാൽ ഒരു മുളം നടന്നാൽ ആയിരം മുളം,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0896,1
+57,"என்னை காதில் போட்டுக்கொள்வார்கள், ஆனால் நான் காதோடு பேசுவதில்லை — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1039,1
+58,ஆறு பக்கங்கள் கொண்ட வடிவம் எப்படி அழைக்கப்படும்?,Mathematical,Mathematical,Layer 2 (Weighted Semantic Vote),0.0997,1
+59,"வெளியே கடினம், உள்ளே மென்மை, உடைத்தால் உயிர் கொள்ளலாம் — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1044,1
+60,നഷ്ടത്തിന് വിപരീതമല്ലാത്ത കഷ്ടം ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+61,പതിനെട്ട് പട്ടണത്തിന് ഒരു കോട്ട,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0923,1
+62,100 കഴിഞ്ഞാൽ വരുന്ന അടുത്ത ഇരട്ടസംഖ്യ?,Mathematical,Mathematical,Layer 2 (Weighted Semantic Vote),0.0861,1
+63,പൊന്നിൻ കിണ്ണം ഒഴുകിയൊഴുകി,Cultural,Cultural,Layer 2 (Confident Match),0.0486,1
+64,"கேட்டால் பெருகும், கொடுத்தால் குறையாது — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1,1
+65,பொங்கலில் வைக்கும் சர்க்கரை என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0902,1
+66,எவ்வளவு பெரிய வீடாலும் என்னை வைக்க இடம் இல்லை — நான் என்ன?,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.0964,1
+67,"வெட்டினால் அழுகிறேன், தின்னால் சந்தோஷப்படுகிறேன் — நான் என்ன?",Logic,Wordplay,Layer 2 (Weighted Semantic Vote),0.1039,0
+68,"சூடான நீரில் வலிமை பெறுவேன், குளிர் நீரில் பலவீனமாவேன் — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1076,1
+69,ആരും ആഗ്രഹിക്കാത്ത മാനം ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+70,തല വെട്ടിയാൽ ഉയരം കുറയും,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.0923,1
+71,വെള്ളത്തിനടിയിൽ കൂടുണ്ടാക്കുന്നവൻ,Logic,Cultural,Layer 2 (Weighted Semantic Vote),0.0905,0
+72,மார்கழி காலையில் என்ன செய்கிறார்கள்?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0934,1
+73,பொங்கலில் வைக்கும் இலை என்ன?,Cultural,Wordplay,Layer 2 (Confident Match),0.049,0
+74,"காட்டின் மன்னன் என்று சொல்வார்கள், ஆனால் மிக வேகமாக ஓடுவது நான் இல்லை — நான் யார்?",Logic,Wordplay,Layer 2 (Weighted Semantic Vote),0.1058,0
+75,மாடுகளை மேய்க்கும் கடவுள் யார்?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.1066,1
+76,கவிதா 100 மீ ஓட 20 வினாடி எடுக்கிறாள். 500 மீ ஓட எத்தனை வினாடி?,Mathematical,Mathematical,Layer 1 (Weighted Keywords),0.0,1
+77,"தொட்டால் உணர்கிறேன், கண்டால் புரிகிறேன், ஆனால் இல்லாமல் போனால் தெரிவதில்லை — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1106,1
+78,ആരും ഉടുക്കാത്ത മുണ്ട് ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+79,விழாவில் பறக்கும் கொடி என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.1014,1
+80,ആരും കേൾക്കാത്ത ശബ്ദം ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+81,"குட்டி குட்டி கால்கள், பட்டி பட்டி நடக்கும், நான் யார்?",Wordplay,Wordplay,Layer 2 (Weighted Semantic Vote),0.1077,1
+82,முருகனின் சகோதரன் யார்?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0959,1
+83,சிவன் அணியும் ஆபரணம் என்ன?,Cultural,Cultural,Layer 1 (Weighted Keywords),0.0,1
+84,9-ന്റെ വർഗ്ഗമൂലം (Square root) എത്ര?,Mathematical,Mathematical,Layer 1 (Weighted Keywords),0.0,1
+85,"மணி மணி ஓசை, கணி கணி நேரம் சொல்வேன், நான் யார்?",Wordplay,Wordplay,Layer 2 (Weighted Semantic Vote),0.1009,1
+86,കൊയ്യാത്ത നെല്ല് ഏതാണ്?,Wordplay,Wordplay,Layer 2 (Confident Match),0.0501,1
+87,"தண்ணீரில் செல்லும், காற்றில் பறக்கும் — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1016,1
+88,"கட்டி கட்டி போடினாலும், நட்டி நட்டி வளரும், நான் யார்?",Wordplay,Wordplay,Layer 2 (Confident Match),0.0538,1
+89,വെള്ളത്തിൽ ജനിക്കും വെള്ളത്തിൽ മരിക്കും,Cultural,Logic,Layer 2 (Weighted Semantic Vote),0.0877,0
+90,കെട്ടാത്ത മാല ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+91,മുകളിലേക്ക് നോക്കി കിടക്കുന്ന പാത്രം,Logic,Wordplay,Layer 2 (Weighted Semantic Vote),0.1022,0
+92,8-ന്റെ പകുതിയുടെ ഇരട്ടി എത്ര?,Mathematical,Mathematical,Layer 1 (Weighted Keywords),0.0,1
+93,விழாவில் வரும் தேர் என்ன?,Cultural,Cultural,Layer 2 (Confident Match),0.0525,1
+94,"என்னை திறந்தால் மூடி வைப்பீர்கள், மூடினால் திறந்து வைப்பீர்கள் — நான் என்ன?",Logic,Wordplay,Layer 2 (Weighted Semantic Vote),0.1047,0
+95,மூன்று ஒன்றுகளை கொண்டு 6 பெறுவது எப்படி?,Mathematical,Mathematical,Layer 1 (Weighted Keywords),0.0,1
+96,"சுத்தம் செய்ய வருகிறேன், ஆனால் நானே அழுக்காகிறேன் — நான் என்ன?",Logic,Wordplay,Layer 2 (Weighted Semantic Vote),0.1086,0
+97,ஒரு சதுரத்தின் பரப்பளவு கணக்கிட என்ன சூத்திரம்?,Mathematical,Mathematical,Layer 2 (Weighted Semantic Vote),0.1006,1
+98,ഒരു കണ്ണ് മാത്രമുള്ള കുള്ളൻ വാലിൽ പിടിച്ചാൽ ഓടും,Cultural,Cultural,Layer 2 (Confident Match),0.0508,1
+99,പച്ചക്കുപ്പായമിട്ട ചുവന്ന സുന്ദരി,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0894,1
+100,ஆயிரம் கண்கள் இருந்தும் ஒரு துளி கண்ணீர் இல்லை — நான் என்ன?,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.0996,1
+101,ഒരു കിലോമീറ്ററിൽ എത്ര മീറ്ററുകളുണ്ട്?,Mathematical,Mathematical,Layer 2 (Confident Match),0.0512,1
+102,രണ്ട് പൂജ്യം ചേർത്താൽ എട്ട് കിട്ടുന്ന സംഖ്യയേത്?,Mathematical,Mathematical,Layer 2 (Confident Match),0.0538,1
+103,ഒരു ത്രികോണത്തിന് എത്ര കോണുകളുണ്ട്?,Mathematical,Mathematical,Layer 2 (Weighted Semantic Vote),0.1012,1
+104,"வெட்கப்படும்போது சிவக்கும், கோபப்படும்போதும் சிவக்கும் — நான் என்ன?",Logic,Wordplay,Layer 2 (Weighted Semantic Vote),0.103,0
+105,ആരും തടയാത്ത ഓട്ടം ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+106,വെള്ളത്തിൽ വിരിയും വെയിലത്ത് വാടും,Cultural,Logic,Layer 2 (Weighted Semantic Vote),0.1019,0
+107,"என்னை சாப்பிட்டால் பலம் கிடைக்கும், ஆனால் என்னை தூக்கினால் கஷ்டமாகும் — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1012,1
+108,கோவில் சுற்றுவது என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0855,1
+109,ഉയരത്തിൽ നിന്ന് വീണാലും പൊട്ടില്ല പക്ഷേ വെള്ളത്തിലിട്ടാൽ പൊട്ടും,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.0971,1
+110,"அடி அடி அடித்தாலும், படி படி உயர்வேன், நான் யார்?",Wordplay,Wordplay,Layer 2 (Weighted Semantic Vote),0.0944,1
+111,"கொடி கொடி ஏறும், படி படி வளரும், நான் யார்?",Wordplay,Wordplay,Layer 2 (Confident Match),0.0538,1
+112,മുന്നോട്ട് പോകുമ്പോൾ പിന്നിൽ അടയാളങ്ങൾ ഉപേക്ഷിക്കും,Logic,Cultural,Layer 2 (Weighted Semantic Vote),0.0965,0
+113,"அனைவரும் என்னை தேடுகிறார்கள், ஆனால் யாரும் என்னை வைத்துக்கொள்ள விரும்புவதில்லை — நான் என்ன?",Logic,Logic,Layer 2 (Confident Match),0.0538,1
+114,கும்பாபிஷேகத்தில் ஊற்றுவது என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.1001,1
+115,കൈയില്ലാത്ത കൈ ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+116,ഒരു മീറ്ററിൽ എത്ര സെന്റിമീറ്ററുണ്ട്?,Mathematical,Mathematical,Layer 2 (Confident Match),0.0548,1
+117,விழாவில் சுற்றும் வண்டி என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0938,1
+118,ആയിരം തച്ചന്മാർ പണിത മധുര കൊട്ടാരം,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.1025,1
+119,கோயிலில் கொடுக்கும் இலை என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0952,1
+120,ஒரு வீட்டில் 4 மூலைகள் உள்ளன. ஒவ்வொரு மூலையிலும் ஒரு பூனை. ஒவ்வொரு பூனையும் 3 பூனைகளை பார்க்கும். மொத்தம் எத்தனை பூனைகள்?,Mathematical,Mathematical,Layer 1 (Weighted Keywords),0.0,1
+121,தமிழ் புத்தாண்டு எந்த மாதம்?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.087,1
+122,"எல்லாவற்றையும் தின்பேன், ஆனால் பசி தீராது — நான் யார்?",Logic,Wordplay,Layer 2 (Weighted Semantic Vote),0.1039,0
+123,ഒരു സ്ക്വയറിന് എത്ര വശങ്ങളുണ്ട്?,Mathematical,Mathematical,Layer 2 (Confident Match),0.05,1
+124,തള്ളയെ തൊട്ടാൽ മകൾ കരയും,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0981,1
+125,அரை மணி நேரம் என்பது எத்தனை வினாடிகள்?,Mathematical,Mathematical,Layer 2 (Confident Match),0.0508,1
+126,"கண்ணுக்கு தெரியாது, ஆனால் எங்கும் பரவுகிறேன் — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.0965,1
+127,ഒരു വർഷത്തിൽ എത്ര മാസങ്ങളുണ്ട്?,Mathematical,Mathematical,Layer 2 (Weighted Semantic Vote),0.0959,1
+128,അഞ്ച് വിരലുകളുള്ള നാല് കൈകളിൽ ആകെ എത്ര വിരലുകളുണ്ട്?,Mathematical,Mathematical,Layer 1 (Weighted Keywords),0.0,1
+129,മഴ പെയ്യാത്ത മേഘം ഏതാണ്?,Wordplay,Wordplay,Layer 2 (Weighted Semantic Vote),0.1009,1
+130,"கடிதம் எழுதுவேன், ஆனால் தபால் தேவையில்லை — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1001,1
+131,ആറ് ആടുകൾക്കും അഞ്ച് കോഴികൾക്കും കൂടി ആകെ എത്ര കാലുകളുണ്ട്?,Mathematical,Mathematical,Layer 1 (Weighted Keywords),0.0005,1
+132,திருமணத்தில் அணியும் நகை என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0923,1
+133,തുന്നാത്ത തുണി ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+134,പൊക്കിളിൽ വിരലിട്ടാൽ വായ് പൊളിക്കും,Cultural,Logic,Layer 2 (Weighted Semantic Vote),0.105,0
+135,കുഴിക്കാത്ത കുഴി ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+136,വെളുത്ത പറമ്പിൽ കറുത്ത ഉറുമ്പുകൾ,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.1085,1
+137,திருவிழாவில் ஏற்றுவது என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.089,1
+138,கோயிலில் தரப்படும் இலை என்ன?,Cultural,Cultural,Layer 2 (Confident Match),0.052,1
+139,அரை என்பது எந்த பின்னத்திற்கு சமம்?,Mathematical,Mathematical,Layer 2 (Weighted Semantic Vote),0.092,1
+140,கோயிலில் ஊற்றுவது என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0899,1
+141,ആരും കാണാത്ത കാഴ്ച ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+142,രണ്ട് അക്കമുള്ള ഏറ്റവും വലിയ സംഖ്യ ഏത്?,Mathematical,Mathematical,Layer 2 (Confident Match),0.0549,1
+143,ഒരു ചതുരശ്ര അടിയിൽ എത്ര വശങ്ങളുണ്ട്?,Mathematical,Mathematical,Layer 2 (Weighted Semantic Vote),0.1044,1
+144,"இலை இருக்கும் ஆனால் மரம் இல்லை, நீர் இருக்கும் ஆனால் ஆறு இல்லை, வயல் இருக்கும் ஆனால் நிலம் இல்லை — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1077,1
+145,ആയിരം തിരിയിട്ട വിളക്ക് അന്തിയായപ്പോൾ അണഞ്ഞു,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0995,1
+146,"கட்டி கட்டி வைத்தாலும், நட்டி நட்டி வளரும், நான் யார்?",Wordplay,Wordplay,Layer 2 (Weighted Semantic Vote),0.1004,1
+147,15-നെ 3 കൊണ്ട് ഗുണിച്ചാൽ എത്ര?,Mathematical,Mathematical,Layer 1 (Weighted Keywords),0.001,1
+148,10-ൽ നിന്ന് എത്ര തവണ 2 കുറയ്ക്കാം?,Mathematical,Mathematical,Layer 1 (Weighted Keywords),0.0,1
+149,പൊട്ടില്ലാത്ത പൊട്ട് ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+150,ആരും തൊടാത്ത തൊടി ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+151,"கொடி கொடி ஏறும், படி படி வளரும், நான் யார்?",Wordplay,Wordplay,Layer 2 (Confident Match),0.0573,1
+152,ഭക്ഷണം കൊടുത്താൽ ജീവിക്കും വെള്ളം കൊടുത്താൽ മരിക്കും,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1019,1
+153,കാലില്ലാതെ നടക്കും കൈയില്ലാതെ അടിക്കും,Logic,Cultural,Layer 2 (Confident Match),0.0469,0
+154,தமிழர் திருநாள் என்ன?,Cultural,Cultural,Layer 2 (Confident Match),0.1018,1
+155,ഒരിക്കൽ പോയാൽ തിരിച്ചു വരില്ല,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.0923,1
+156,"நான் இல்லாமல் எழுத முடியாது, நான் இருந்தும் எழுதமாட்டேன் — நான் என்ன?",Logic,Wordplay,Layer 2 (Weighted Semantic Vote),0.114,0
+157,"கட்டி கட்டி வைத்தாலும், வெட்டி வெட்டி சாப்பிடுவார்கள், நான் யார்?",Wordplay,Wordplay,Layer 2 (Confident Match),0.0607,1
+158,എപ്പോഴും കൂടെയുണ്ട് പക്ഷേ തൊടാൻ പറ്റില്ല,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1248,1
+159,എത്ര വലിയവനും എന്റെ മുന്നിൽ തല കുനിക്കും,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1274,1
+160,ആരും കെട്ടാത്ത മാല ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+161,അഞ്ച് രൂപയുടെ പത്ത് നോട്ട് ചേർന്നാൽ എത്ര രൂപയാകും?,Mathematical,Mathematical,Layer 2 (Confident Match),0.0616,1
+162,ഒരു മീറ്ററിന്റെ പകുതി എത്ര സെന്റീമീറ്റർ?,Mathematical,Mathematical,Layer 1 (Weighted Keywords),0.0,1
+163,கோயிலில் இருக்கும் குளம் என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.1006,1
+164,പല്ലുണ്ട് പക്ഷേ കടിക്കില്ല,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.103,1
+165,திருமணத்தில் முதலில் வைக்கும் பொருள் என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.1062,1
+166,"கட்டி கட்டி வைத்தாலும், வெட்டி வெட்டி சாப்பிடுவார்கள், நான் யார்?",Wordplay,Wordplay,Layer 2 (Confident Match),0.0585,1
+167,"நான் இல்லாமல் வீடு இருளாகும், ஆனால் நான் வாழ வாழ சிறுக்கிறேன் — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1048,1
+168,விழாவில் வரும் மக்கள் என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.1032,1
+169,"ஓடுகிறேன் ஆனால் கால் இல்லை, முனகுகிறேன் ஆனால் வாய் இல்லை — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1042,1
+170,மூன்று மூன்றுகளை கொண்டு 27-ஐ பெறுவது எப்படி?,Mathematical,Mathematical,Layer 1 (Weighted Keywords),0.0,1
+171,முக்கால் என்பது எந்த தசம எண்ணுக்கு சமம்?,Mathematical,Mathematical,Layer 2 (Weighted Semantic Vote),0.1027,1
+172,നാല് വശങ്ങളും തുല്യമായ രൂപം?,Mathematical,Mathematical,Layer 2 (Weighted Semantic Vote),0.0982,1
+173,കെട്ടിയിട്ടാൽ ഓടും അഴിച്ചുവിട്ടാൽ നിൽക്കും,Logic,Cultural,Layer 2 (Weighted Semantic Vote),0.1024,0
+174,"என்னை கட்டினால் நோகும், கட்டவிழ்த்தால் சுகமாகும் — நான் என்ன?",Logic,Wordplay,Layer 2 (Weighted Semantic Vote),0.1028,0
+175,ചെല്ലാത്ത പുര ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+176,കാറ്റടിച്ചാൽ വീഴില്ല കല്ലടിച്ചാൽ വീഴും,Cultural,Logic,Layer 2 (Weighted Semantic Vote),0.0992,0
+177,ആരും പേടിക്കാത്ത കടുവ ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+178,കുടിക്കാത്ത കഞ്ഞി ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+179,"நான் சிவப்பு, மஞ்சள், பச்சை ஆனால் ஒரே பொருள் — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1009,1
+180,இரண்டு 2களை மட்டும் பயன்படுத்தி 4-ஐ உருவாக்குங்கள்.,Mathematical,Mathematical,Layer 1 (Weighted Keywords),0.0004,1
+181,திருமணத்தில் வாசிக்கும் கருவி என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.1032,1
+182,ആരും കുടിക്കാത്ത വെള്ളം ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+183,തല വെട്ടിയാൽ ഉയരം കൂടും,Cultural,Logic,Layer 2 (Weighted Semantic Vote),0.0965,0
+184,"மூடி மூடி வைத்தாலும், ஊடி ஊடி வரும், நான் யார்?",Wordplay,Wordplay,Layer 2 (Confident Match),0.055,1
+185,திருவிழாவில் வரும் மக்கள் என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.0859,1
+186,"சுட்டு சுட்டு சாப்பிடுவார்கள், கிட்டு கிட்டு கரையும், நான் யார்?",Wordplay,Wordplay,Layer 2 (Confident Match),0.055,1
+187,ആരും വയ്ക്കാത്ത പൂവ് ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+188,തറയിൽ തട്ടിയാൽ ഉയരത്തിൽ ചാടും,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.0976,1
+189,കയറാൻ പറ്റും പക്ഷേ ഇറങ്ങാൻ പറ്റില്ല,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1002,1
+190,அழகான பெண்ணுக்கு அதிசயமான வியாதி...,Wordplay,Cultural,Layer 2 (Weighted Semantic Vote),0.0993,0
+191,திருவிழாவில் வரும் தேர் என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.094,1
+192,அரை லிட்டர் என்பது எத்தனை மில்லிலிட்டர்?,Mathematical,Mathematical,Layer 2 (Weighted Semantic Vote),0.0998,1
+193,കല്ലില്ലാത്ത കല്ല് ഏതാണ്?,Wordplay,Wordplay,Layer 1 (Weighted Keywords),0.0,1
+194,കടലിൽ ജനിക്കും വീട്ടിൽ മരിക്കും,Logic,Cultural,Layer 2 (Weighted Semantic Vote),0.1017,0
+195,"என்னை வேக வைத்தால் நான் கடினமாவேன், உங்களை வேக வைத்தால் நீங்கள் மென்மையாவீர்கள் — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1176,1
+196,என்னை அழித்தாலும் நான் மீண்டும் உருவாவேன் — நான் என்ன?,Logic,Wordplay,Layer 2 (Weighted Semantic Vote),0.0999,0
+197,"வானில் பறக்கும், ஆனால் பறவை இல்லை; சத்தமாக வரும் ஆனால் பேசாது — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1073,1
+198,"ஒரு நாளில் ஆயிரம் மைல் பயணிக்கும், ஆனால் அதே இடத்திலேயே இருக்கும் — நான் யார்?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1075,1
+199,27-இன் கன வர்க்க மூலம் என்ன?,Mathematical,Mathematical,Layer 2 (Weighted Semantic Vote),0.1111,1
+200,വെള്ളത്തിനടിയിൽ കൂടുണ്ടാക്കുന്നവൻ,Logic,Cultural,Layer 2 (Weighted Semantic Vote),0.1088,0
+201,முப்பதை மூன்றால் வகுத்தால் கிடைப்பது என்ன?,Mathematical,Wordplay,Layer 2 (Weighted Semantic Vote),0.1005,0
+202,"தட்டு தட்டு அடிப்பேன், ஒட்டு ஒட்டு ஒலிப்பேன், நான் யார்?",Wordplay,Wordplay,Layer 2 (Confident Match),0.0542,1
+203,നടുവിൽ വയറുള്ളവൻ,Logic,Wordplay,Layer 2 (Weighted Semantic Vote),0.0945,0
+204,பொங்கலில் வைக்கும் பால் என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.1006,1
+205,വായ തുറന്നാൽ പല്ല് കാണാം,Logic,Cultural,Layer 2 (Weighted Semantic Vote),0.1049,0
+206,"ஊரில் உள்ள அனைவரும் என்னை அறிவார்கள், ஆனால் என்னை பார்த்தவர் யாரும் இல்லை — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1339,1
+207,"நட்டி நட்டி வளர்வேன், கட்டி கட்டி பிடிப்பேன், நான் யார்?",Wordplay,Wordplay,Layer 2 (Confident Match),0.0605,1
+208,ഉള്ളു പൊള്ളയായ രാജാവിന് പച്ചക്കോട്ട,Cultural,Wordplay,Layer 2 (Weighted Semantic Vote),0.1252,0
+209,"மெல்ல மெல்ல விழும், கல்ல கல்ல ஆகும், நான் யார்?",Wordplay,Wordplay,Layer 2 (Confident Match),0.0744,1
+210,"அனைவரும் விரும்புகிறார்கள், ஆனால் யாரும் வேண்டாம் என்று சொல்ல மாட்டார்கள் — நான் என்ன?",Logic,Logic,Layer 2 (Weighted Semantic Vote),0.2331,1
+211,"சத்தமின்றி நடப்பேன், சத்தமின்றி கொல்வேன் — நான் யார்?",Logic,Wordplay,Layer 2 (Weighted Semantic Vote),0.1451,0
+212,ഏത് സംഖ്യയെ പൂജ്യം കൊണ്ട് ഗുണിച്ചാലും ഉത്തരം എന്തായിരിക്കും?,Mathematical,Mathematical,Layer 2 (Confident Match),0.0621,1
+213,നൂറിന്റെ പകുതിയുടെ പകുതി എത്ര?,Mathematical,Mathematical,Layer 1 (Weighted Keywords),0.001,1
+214,ஒரு கடல்கப்பல் ஏணி கீழிருந்து 6 படிகள் நீரில் உள்ளது. நீர் 3 படி உயர்ந்தால் எத்தனை படிகள் மூழ்கும்?,Mathematical,Mathematical,Layer 1 (Weighted Keywords),0.0,1
+215,കാണാൻ പറ്റില്ല പക്ഷേ കേൾക്കാൻ പറ്റും,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1147,1
+216,திருமணத்தில் வாசிக்கும் இசை என்ன?,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.1153,1
+217,കണ്ണില്ലാത്തവന് കാഴ്ച കൊടുക്കും,Cultural,Logic,Layer 2 (Confident Match),0.0679,0
+218,വരയ്ക്കും തോറും കുറഞ്ഞു പോകുന്ന സാധനം,Logic,Logic,Layer 2 (Weighted Semantic Vote),0.1639,1
+219,തലയുണ്ട് മുടിയില്ല വായുണ്ട് സംസാരിക്കില്ല,Cultural,Logic,Layer 2 (Weighted Semantic Vote),0.1502,0
+220,മുത്തപ്പന്റെ താടിയിൽ ഊഞ്ഞാലാട്ടം,Cultural,Cultural,Layer 2 (Weighted Semantic Vote),0.1308,1
+221,പൊങ്ങിക്കിടക്കും പക്ഷേ പറക്കില്ല,Logic,Logic,Layer 2 (Confident Match),0.0934,1
+222,பிப்ரவரி மாதத்தில் உள்ள நாட்கள் என்ன?,Mathematical,Cultural,Layer 2 (Weighted Semantic Vote),0.2354,0
